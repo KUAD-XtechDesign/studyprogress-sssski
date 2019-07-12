@@ -1,0 +1,22 @@
+html {
+
+  #div1
+   {
+      float: left;
+   }
+  #div2
+   {
+      float: right;
+   }
+  #div3 {
+      float: right;
+  }
+
+ * {box-sizing: border-box;}
+  .row .col {
+    float: left;
+    width: 12.5%;
+    background-color: #0f0;
+    border: 10px solid #fff;
+  }
+}

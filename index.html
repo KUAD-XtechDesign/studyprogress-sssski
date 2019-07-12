@@ -14,6 +14,40 @@
             background-color: #555555;
         }
 
+        #whole{
+        display: flex;
+       justify-content: space-around;}
+
+       #div2, #div3{
+        display: inline-block;
+       font-size:15px;
+        letter-spacing:0.15em;}
+
+        #div4{
+        display:block;
+        margin-left:50px;
+        }
+
+        button {
+          width:100px;
+          height:50px;
+          border-radius: 8px;
+          background-color:#555555;
+          webkit-transition-duration: 0.4s; /* Safari */
+         transition-duration: 0.4s
+         }
+
+         button:hover {
+         background-color:rgb(213,167,024);
+         color: white;}
+
+
+        header
+        {margin-top:50px;
+         line-height:2em
+
+        }
+
         .groupe{
             background-color: rgb(213,167,024);
             padding: 50px;
@@ -38,17 +72,23 @@
     </style>
   </head>
   <body>
+    <div id="whole">
    <header>
+     <style>a{ TEXT-DECORATION:none }</style>
      <nav>
        <ul>
-        <p style="margin-top:50px"> <li class="headstyle"><a class="headstyle"href="#">SwNwBasis:1</a></li></p>
-         <li class="headstyle"><a class="headstyle"href="./cv.html">CV</a></li>
+         <button type="button" name="button">
+        <div id="div2"><li class="headstyle"><a class="headstyle"href="./subjects/swnwb2.html">SwNw:2</a></li></div></button>
+         <button type="button" name="button">
+        <div id="div3"><li class="headstyle"><a class="headstyle"href="./cv.html">CV</a></li></div></button>
        </ul>
      </nav>
-     <hr>
-     <hr>
     </header>
+    </div>
    <main>
+     <div id="div4">
+
+
      <h1 class="headstyle">リンの学習進捗ページ</h1>
      <img src="./assets/images/3.jpg" alt="">
      <h2 class="headstyle">履修科目</h2>
@@ -62,8 +102,7 @@
        <li class="headstyle">クロステックデザイン演習Ⅲ</li>
      </ol>
      <h2 class="headstyle">自己紹介</h2>
-     <hr>
-     <hr>
+     </div>
    </main>
    <footer>
     <small class="headstyle">クロステックデザインコース</small>

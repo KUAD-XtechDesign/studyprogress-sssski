@@ -15,6 +15,35 @@
             background-color: #555555;
         }
 
+        header
+        {margin-top:50px;
+         line-height:2em
+
+        }
+        #whole{
+        display: flex;
+        justify-content: space-around;}
+
+        #div2,#div3{
+        display: inline-block;
+        font-size:15px;
+        letter-spacing:0.15em;}
+
+
+
+        button {
+          width:100px;
+          height:50px;
+          border-radius: 8px;
+          background-color:#555555;
+          webkit-transition-duration: 0.4s; /* Safari */
+         transition-duration: 0.4s
+         }
+
+         button:hover {
+         background-color:rgb(213,167,024);
+         color: white;}
+
         .groupe{
             background-color: rgb(213,167,024);
             padding: 50px;
@@ -50,15 +79,17 @@
   </head>
   <body>
    <header>
-    <nav>
-      <ul>
-      <p style="margin-top:50px">  <li class='headstyle'><a class='headstyle' href="./index.html">Home</a></li>
-      </p>
-      <p>  <li class='headstyle'>SwNwBasis:1</li></p>
-      </ul>
-    </nav>
-    <hr>
-    <hr>
+     <style>a{ TEXT-DECORATION:none }</style>
+      <div id="whole">
+      <nav>
+        <ul>
+          <button type="button" name="button">
+         <div id="div2"><li class="headstyle"><a class="headstyle"href="./subjects/swnwb2.html">SwNw:2</a></li></div></button>
+          <button type="button" name="button">
+         <div id="div3"><li class="headstyle"><a class="headstyle"href="./index.html">home</a></li></div></button>
+        </ul>
+      </nav>
+     </div>
    </header>
 
 <div class="groupe">
@@ -73,8 +104,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tlsDODUX7so" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </main>
 </div>
-   <hr>
-   <hr>
+
    <footer>
     <small>
       <p style="margin-top:25px"
